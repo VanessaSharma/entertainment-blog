@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+       <div class= "well" id="postBody">
+          {{#link-to 'post' post.id}}
+         <h1>{{post.title}}</h1>
+         <h3>{{post.subtitle}}</h3>
+         <p>{{post.category}}</p>
+         <p>Air Date: {{post.date}}</p>
+         <li><img src="{{post.image}}"></li>
+         <h5>{{post.review}} stars</h5>
+         <li>{{update-post post=post update="update"}}<button {{action 'delete' post}}>Delete</button></li>
+         {{/link-to}}<br>
+       </div>
+    </div>
+  </div>
+</div>

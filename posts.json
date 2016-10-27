@@ -1,0 +1,37 @@
+{ "posts": [{
+    "category": "TV Show",
+    "title": "Game of Thrones",
+    "subtitle": "The Red Wedding",
+    "date": "October 23, 2016",
+    "review": "This is a classic episode of Game of Thrones. It is one of my favorites and I would give it a rating of 🌟🌟🌟🌟🌟",
+    "image": "https://media0.giphy.com/media/a080pCHzAnPdC/200_s.gif"
+  }, {
+    "category": "YouTube Channel",
+    "title": "Rawvana",
+    "subtitle": "Berry Acai Bowl",
+    "date": "December 3, 2014",
+    "review": "Learn how to make your own acai bowls at home. I would give it a rating of 🌟🌟🌟",
+    "image": "https://i.ytimg.com/vi/aR-ytoeZ-_0/hqdefault.jpg"
+  }, {
+    "category": "Movie",
+    "title": "United Passions",
+    "subtitle": "Fifa movie",
+    "date": "January 21, 2015",
+    "review": "This movie was created by Fifa in attempt to cover up corruption allegations. I would give it a rating of zero stars.",
+    "image": "http://www.flickeringmyth.com/wp-content/uploads/2015/06/united-passions-film-poster-600x372.jpg"
+  }, {
+    "category": "Series",
+    "title": "Gustakh Dil",
+    "subtitle": "Season 2",
+    "date": "February 17, 2013",
+    "review": "Nikhil becomes annoyed with Laajo for not informing him about her trip to Sonvarsha. Kunal wishes to get engaged to Ishana. I would give it a rating of 🌟 stars.",
+    "image": "http://st1.bollywoodlife.com/wp-content/uploads/2014/03/gustakh-dil030214.jpg"
+  }],
+  "comments": [{
+    "author": "Andrea",
+    "content": "Great recommendation!"
+  }, {
+    "author": "Alex",
+    "content": "I really enjoyed this channel, thanks!"
+  }]
+}

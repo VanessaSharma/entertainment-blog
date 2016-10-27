@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="well">
+          <h2> Comments </h2>
+          <ul>
+            {{#each post.comments as |comment|}}
+              {{comment-tile comment=comment destroyComment="destroyComment" update="update"}}
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,5 @@
+<div class="well" id="comments">
+  <h8>{{comment.content}} - by {{comment.author}}</h8>
+  {{update-comment comment=comment update="update"}}
+  <button id="delButton" {{action 'delete' comment}}>Delete Comment</button>
+</div>

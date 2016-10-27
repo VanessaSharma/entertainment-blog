@@ -1,0 +1,103 @@
+body {
+  background-image: url("http://www.hdwallpapery.com/static/images/black-background-ppt-backgrounds-powerpoint_8WuVMv9.jpg");
+  text-align: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+img{
+  width: auto;
+  max-width: 70%;
+  height: auto;
+  max-height: 50%;
+  border: solid;
+  border-color: #182d4f;
+  border-radius: 10px;
+}
+
+#postBody {
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Passion One', cursive;
+}
+
+h2 {
+  font-size: 43px;
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Passion One', cursive;
+}
+
+h7 {
+  font-size: 80px;
+  color: white;
+  font-family: 'Passion One', cursive;
+}
+
+h8 {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h6 {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.well {
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+button {
+  width: 90px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: #182d4f;
+  color: lightgrey;
+}
+
+#bigLink:hover{
+  text-decoration: none;
+}
+
+#bigLink {
+  color: #182d4f;
+}
+
+
+a {
+  color: white;
+}
+
+
+#delButton, #newButton {
+  width: 90px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: #182d4f;
+  color: lightgrey;
+}
+
+#comments{
+  background-image: url("http://www.hdwallpapery.com/static/images/black-background-ppt-backgrounds-powerpoint_8WuVMv9.jpg");
+}

@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+       <div class= "well" id="postBody">
+         <h1>{{model.title}}</h1>
+         <h3>{{model.subtitle}}</h3>
+         <p>{{model.category}}</p>
+         <p>Air Date: {{model.date}}</p>
+         <p><img src="{{model.image}}"></p>
+         <h5>{{model.review}} stars</h5>
+         <button {{action 'delete' post}}>Delete</button>
+         {{update-post post=model update="update"}}
+       </div>
+    </div>
+  </div>
+</div>
+
+{{new-comment saveComment="saveComment" post=model destroyComment='destroyComment' update='update'}}
+{{post-detail post=model destroyRental="destroyRental" destroyComment="destroyComment" update="update"}}
