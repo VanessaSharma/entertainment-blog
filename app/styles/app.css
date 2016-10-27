@@ -75,17 +75,21 @@ button {
   color: lightgrey;
 }
 
-#bigLink:hover{
+.navButtons a {
+  width: 90px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: #182d4f;
+  color: lightgrey !important;
+}
+
+a:hover{
   text-decoration: none;
 }
 
-#bigLink {
-  color: #182d4f;
-}
-
-
 a {
-  color: white;
+  color: #182d4f;
 }
 
 

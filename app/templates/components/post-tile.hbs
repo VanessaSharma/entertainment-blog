@@ -9,8 +9,8 @@
          <p>Air Date: {{post.date}}</p>
          <li><img src="{{post.image}}"></li>
          <h5>{{post.review}} stars</h5>
-         <li>{{update-post post=post update="update"}}<button {{action 'delete' post}}>Delete</button></li>
          {{/link-to}}<br>
+         <li>{{update-post post=post update="update"}}<button {{action 'delete' post}}>Delete</button></li>
        </div>
     </div>
   </div>
